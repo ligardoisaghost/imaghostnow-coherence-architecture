@@ -1,22 +1,58 @@
 # Architecture Components
 
-This file enumerates the major structural blocks of the IMAGHOSTNOW system.  
-Each component is defined in terms of function, coherence role, and constraints.
+This file defines all structural components of the IMAGHOSTNOW system and their
+relationships, roles, and boundaries.
 
 ## Core Components
-- Root System  
-- Algorithmic Layer  
-- Data Layer  
-- Creative Layer  
-- Visual Layer  
-- Phase Machine  
-- Docs + Papers Layer  
-- SRC (implementation hub)  
 
-## Rules
-- Components must remain decoupled but communicative  
-- No component may violate coherence boundaries  
-- Cross-layer operations must go through defined interfaces  
+### 1. Node
+The smallest unit of structural meaning.
 
-## Notes
-If a new component is added, the architecture must be re-audited.
+Properties:
+- semantic identity
+- shape role
+- connection rules
+- allowed operators
+
+### 2. Channel
+A directed path for signals and flows.
+
+Properties:
+- directionality
+- throughput capacity
+- layer visibility
+- structural weight
+
+### 3. Surface
+The boundary layer through which external systems or higher-level layers interact.
+
+Properties:
+- exposure rules
+- allowable signal types
+- interface constraints
+
+### 4. Graph
+The system’s integrated structural map.
+
+Contains:
+- nodes  
+- channels  
+- surfaces  
+- cross-links  
+
+### 5. Lattice
+A stable network enforcing shape coherence across the entire architecture.
+
+Defines:
+- adjacency constraints  
+- allowed transformations  
+- evolution rules  
+
+## Component Relationships
+
+- Nodes connect into channels.
+- Channels assemble into graphs.
+- Graphs are constrained by lattices.
+- Surfaces expose controlled interfaces outward.
+
+Component structure must remain coherent with `framework/invariants.md`.

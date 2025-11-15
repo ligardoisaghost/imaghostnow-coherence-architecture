@@ -1,20 +1,38 @@
 # Architecture Overview
 
-The architecture layer defines the static structure of the IMAGHOSTNOW system.  
-It captures how each layer fits together, how boundaries are enforced, and how  
-coherence is preserved through design patterns, contracts, and invariants.
+The architecture layer defines the structural channels through which signals,
+states, and meaning move through the IMAGHOSTNOW system.
+
+Where `framework/` defines constraints and `algorithmic/` defines behavior,
+the architecture layer specifies the *physical arrangement* of the system.
 
 ## Purpose
-- Define the system’s structural shape  
-- Establish relationship rules between layers  
-- Stabilize the coherence model  
-- Provide a blueprint for scaling and revisions  
-- Anchor the system’s conceptual core  
 
-## Contains
-- `components.md` — Structural blocks and their responsibilities  
-- `interfaces.md` — Contracts, boundaries, and allowed interactions  
+- Provide structural channels for flows
+- Define hierarchical and cross-linked component relationships
+- Expose interface surfaces to higher layers
+- Anchor diagrams, data structures, and visual representations
+- Enforce shape that all behavior must respect
 
-## Notes
-Architecture does not change frequently. When it changes, the entire system  
-must be re-evaluated for drift, coupling, and loss of coherence.
+## Architecture Characteristics
+
+- Hierarchical yet cross-linked
+- Deterministic shape boundaries
+- Stable component graph
+- Forward-only coherence flow model
+- Strict interface surfaces
+
+## Relationship to Other Layers
+
+- Uses:  
+  - `framework/layers.md`  
+  - `root/structure.md`  
+  - `algorithmic/logic.md`
+
+- Provides:  
+  - Structure to `visual/`  
+  - Channels to `data/`  
+  - Boundaries to `creative/`  
+  - Reference geometry to `diagrams/`
+
+Changes to architecture must not violate internal or cross-layer shape invariants.
