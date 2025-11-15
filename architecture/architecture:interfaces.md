@@ -1,3 +1,19 @@
-Architecture/interfaces.md
+# Architecture Interfaces
 
-Interfaces define exactly how components speak: the shapes of inputs, the format of outputs, and the expectations between them. This prevents ambiguity in cross-layer communication. Each interface clarifies what may vary and what must remain constant. It describes permissible delays, transformations, and denormalizations. The file ensures every connection is clear enough to rebuild from scratch.
+Interfaces define how layers communicate without breaking coherence.  
+They establish allowed flows, forbidden interactions, and boundary logic.
+
+## Purpose
+- Protect system invariants  
+- Enforce modularity  
+- Reduce cross-layer noise  
+- Stabilize long-term extensibility  
+
+## Types of Interfaces
+- Data-exchange contracts  
+- Algorithmic ↔ Creative handshake  
+- Root ↔ Phase coherence mapping  
+- Visual ↔ Creative motif alignment  
+
+## Notes
+Interfaces are the shield. Breaking them breaks the entire structure.

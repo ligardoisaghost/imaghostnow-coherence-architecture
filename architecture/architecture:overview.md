@@ -1,3 +1,20 @@
-architecture/overview.md
+# Architecture Overview
 
-The architecture layer identifies every functional region of the system and describes the ecosystem they form together. It presents the system as a stack of responsibility zones unified by coherent rules. The overview explains why certain layers sit above or below others. It outlines the intent of the entire architecture: to produce stable, interpretable coherence readings. It clarifies what the architecture does not do, preventing scope creep.
+The architecture layer defines the static structure of the IMAGHOSTNOW system.  
+It captures how each layer fits together, how boundaries are enforced, and how  
+coherence is preserved through design patterns, contracts, and invariants.
+
+## Purpose
+- Define the system’s structural shape  
+- Establish relationship rules between layers  
+- Stabilize the coherence model  
+- Provide a blueprint for scaling and revisions  
+- Anchor the system’s conceptual core  
+
+## Contains
+- `components.md` — Structural blocks and their responsibilities  
+- `interfaces.md` — Contracts, boundaries, and allowed interactions  
+
+## Notes
+Architecture does not change frequently. When it changes, the entire system  
+must be re-evaluated for drift, coupling, and loss of coherence.
