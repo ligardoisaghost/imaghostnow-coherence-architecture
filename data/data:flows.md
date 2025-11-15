@@ -1,21 +1,44 @@
-# Data Flows
+# Data Pipelines
 
-This file defines how information moves through the architecture.
+The data layer defines symbolic sequences that ensure meaning travels coherently
+through the system.
 
-## Principles
-- Flow must be traceable.
-- No orphan data.
-- Every transformation must leave a timestamped footprint.
+## 1. Symbol Encoding Pipeline
 
-## Flow Types
-### Ingestion Flow
-Raw → validated → structured → stored
+1. receive structure  
+2. assign canonical symbol  
+3. validate against root invariants  
+4. apply framework constraints  
+5. bind symbolic metadata  
+6. register with diagrams layer  
 
-### Retrieval Flow
-User/module → fetch → normalize → output
+Rules:
+- symbols cannot contradict structural shape  
+- missing metadata invalidates the pipeline  
 
-### Transformation Flow
-input → process → validate → persist
+## 2. Symbolic-to-Visual Translation
 
-## Notes
-Breaking the data flow rules destabilizes the coherence architecture.
+Stages:
+1. match symbol to form class  
+2. resolve palette constraints  
+3. map onto diagram geometry  
+4. prepare metaphor surface  
+5. send to visual layer  
+
+## 3. Validation and Reconciliation
+
+Triggered when:
+- diagram mismatch  
+- invalid translation  
+- contradictory symbol  
+- orphan node or edge  
+
+Cycle:
+1. locate mismatch  
+2. compare to canonical symbol  
+3. reapply constraints  
+4. correct diagrams  
+5. update structure reference  
+
+The data layer is the silent adjudicator:  
+nothing advances unless the symbols agree with the truth.
