@@ -6,7 +6,7 @@
 \deftab560
 \pard\pardeftab560\slleading20\pardirnatural\partightenfactor0
 
-\f0\fs26 \cf0 ## Diagram Types\
+\f0\fs26 \cf0 # Diagram Types\
 \
 - **System Map** \'97 High-level view of major subsystems and their relationships.\
 - **Pipelines** \'97 Stepwise process views (ingestion, analysis, export, publication).\

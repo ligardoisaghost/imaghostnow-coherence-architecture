@@ -1,19 +1,3 @@
-# System States
+phase/states.md
 
-States describe stable configurations of the architecture under different
-operational conditions.
-
-## Core States
-- **Dormant** — Minimal activity, system awaits trigger conditions.
-- **Active** — Normal operational mode, all subsystems responsive.
-- **Accelerated** — High-intensity mode. Fewer constraints. Faster iteration.
-- **Restricted** — Safety-limited mode. Reduced privileges. Guardrails active.
-- **Transitional** — Moving between states; partial subsystem activation.
-
-## Transition Rules
-- Transitions must be monotonic in a single direction unless explicitly defined.
-- No state may bypass “Transitional” unless allowed by invariants.
-- States inherit global constraints from root/principles.md.
-
-## Notes
-A state shift is a global event: every subsystem adjusts its behavior.
+ define the system’s operational configurations. Each state has specific permissions, constraints, and expected signals. This file catalogs them and shows how they relate. It describes how a state can degrade, stabilize, or escalate. This prevents unpredictable behavior during transitions.

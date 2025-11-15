@@ -1,12 +1,3 @@
-# Diagrams Overview
+diagrams/overview.md
 
-This folder contains structural maps of the IMAGHOSTNOW Coherence Architecture.
-
-Diagrams in this layer do not invent new logic.
-They *visualize* structures that are defined in the root, framework, algorithmic, and data layers.
-
-## Purpose
-
-- Provide fast visual orientation for new readers.
-- Show how systems interact without requiring deep code or text.
-- Anchor conversations around stable shapes: graphs, grids, flows, stacks.
+This explains why diagrams are essential: they reveal relationships that text obscures. It describes the difference between structural diagrams, flow diagrams, and conceptual maps. The overview enforces a consistent visual grammar across diagrams. It ensures diagrams communicate system identity as clearly as the text does. It defines when a diagram should be made and when it should not.

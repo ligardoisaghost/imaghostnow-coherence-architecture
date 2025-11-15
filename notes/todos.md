@@ -1,1 +1,1 @@
-This is the overview file for the notes layer.
+Todos document the remaining work at both macro and micro levels. They capture open questions, missing sections, and future expansions. The file prioritizes tasks based on system importance. It ensures progress stays directional and intentional. This keeps the architecture evolving coherently.

@@ -1,14 +1,3 @@
-# Root Overview
+root/overview.md
 
-This folder defines the foundational structure, assumptions, and orientation of the IMAGHOSTNOW Coherence Architecture.
-
-## Purpose
-The root layer establishes the global definitions that every subsystem depends on. Nothing in the system can contradict the root files.
-
-## Contents
-- **overview.md** — This file. Describes purpose, structure, orientation.
-- **structure.md** — Defines architectural layers and global invariants.
-- **principles.md** — Core logic rules, coherence laws, and non-negotiable constraints.
-
-## Notes
-The root layer is *read-only philosophy*: once established, changes must be deliberate, justified, and consistent with the whole architecture.
+This file anchors the model in fundamental assumptions. It explains the philosophical ground truth underlying all coherence interpretations. It identifies the scope and limits of the architecture’s claims. It defines what counts as a foundational axiom. It ensures clarity from the first principle outward.

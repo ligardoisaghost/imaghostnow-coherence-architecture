@@ -1,30 +1,3 @@
-# Algorithmic Flows
+algorithmic/flows.md
 
-This file describes system motion through time and state.
-
-## State Machine
-
-**States**
-- INPUT
-- EVALUATE
-- RECONCILE
-- UPDATE
-- STABILIZE
-
-**Transitions**
-INPUT → EVALUATE  
-EVALUATE → RECONCILE  
-RECONCILE → UPDATE  
-UPDATE → STABILIZE  
-STABILIZE → INPUT
-
-## Evaluation Cycle
-1. Capture signal  
-2. Anchor temporally  
-3. Compare against invariants  
-4. Apply logic  
-5. Update coherence layer  
-6. Store result
-
-## Notes
-Flows define *rhythm*. Logic defines *rules*. Together they form the living behavior of the architecture.
+This describes the movement of signals: where data enters, how it warms, how it interacts, and where it exits. It outlines error-handling behavior when signals conflict or destabilize. Flows define the pacing and sequencing of evaluations. They preserve consistency across rapid state changes. This document establishes how every layer above is fed and how every result below is verified.
