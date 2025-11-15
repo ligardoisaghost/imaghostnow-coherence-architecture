@@ -1,44 +1,32 @@
 # Root Structure Map
 
-The structure file defines how the entire architecture fits together.  
-It establishes the lattice, the graph, the hierarchy, and the permitted pathways.
+The root structure describes how the major layers fit together.  
+It provides a stable map so that future changes don’t drift into chaos.
 
-## System Lattice (High-Level)
-- **Root**  
-  Identity, invariants, coherence law  
-- **Framework**  
-  Structure, layers, and organizing principles  
-- **Algorithmic**  
-  Logic, flows, constraints  
-- **Creative**  
-  Narrative, motifs, semantic voice  
-- **Visual**  
-  Palette, metaphors, spatial coherence  
-- **Phase**  
-  Temporal states, cycles, transitions  
-- **Data**  
-  Schemas, pipelines, system observations  
-- **Diagrams**  
-  Maps of relationships and flows  
-- **Docs**  
-  Specifications and reference material  
-- **Src**  
-  Implementation, core builders  
-- **Notes**  
-  Working files, tasks, revisions  
+## Top-Level Layers
 
-## Relationship Graph
-The system follows a **root-outward** coherence model:  
-`Root → Framework → (Algorithmic / Creative / Visual / Phase) → Data / Diagrams → Docs → Src`
+- `root/` – Identity, principles, invariants, and flows.  
+- `framework/` – Abstract structure, layers, and cross-layer relationships.  
+- `algorithmic/` – Logic, evaluation rules, and dynamic behavior.  
+- `data/` – Schemas, data contracts, and ingestion/exposure flows.  
+- `diagrams/` – System maps, pipelines, and visual coherence graphs.  
+- `architecture/` – Concrete system components, interfaces, and contracts.  
+- `visual/` – Visual metaphors, palette, and aesthetic constraints.  
+- `creative/` – Narrative tone, motifs, voice, and story logic.  
+- `papers/` – Formal treatments, research agenda, and whitepaper.  
+- `phase/` – Lifecycle states, cycles, and temporal behavior.  
+- `src/` – Implementations, scripts, and pipelines.  
+- `notes/` – Changelog, backlog, and working notes.
 
-Each arrow is a permitted dependency.  
-Reverse or diagonal dependencies must be justified.
+## Structural Relationships
 
-## Pathways
-- **Vertical pathways** ensure each layer inherits coherence from the one above.  
-- **Horizontal pathways** allow communication between peer modes (e.g., creative ↔ visual) but only through defined interfaces.  
-- **Temporal pathways** allow phase logic to influence or reconfigure lower-level behavior.
+- `root/` ← anchors every other directory.  
+- `framework/` ← defines the schema of how layers talk to each other.  
+- `algorithmic/` ← encodes the behavior assumed by `framework/`.  
+- `data/` + `diagrams/` ← provide the observable evidence that the model matches reality.  
+- `architecture/` ← binds the above into concrete components and interfaces.  
+- `visual/` + `creative/` ← expose the system to humans in a coherent way.  
+- `phase/` ← tracks where in the lifecycle any experiment or deployment is.  
+- `src/` ← is the operational surface that must not drift from this map.
 
-## Notes
-The structure file acts as the architectural compass.  
-Every new component must map cleanly into this lattice.
+Any new directory or major refactor must be reflected here first.

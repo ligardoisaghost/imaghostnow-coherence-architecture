@@ -1,22 +1,41 @@
 # Root Principles
 
-These are the non-negotiable rules that define the identity, logic, and integrity of the IMAGHOSTNOW system.
+These principles define how the IMAGHOSTNOW Coherence Architecture is allowed to behave.  
+They are treated as constitutional law, not suggestions.
 
-## Coherence Principles
-1. **No contradiction across layers.**  
-2. **Motion must match intention.**  
-3. **Narrative must match behavior.**  
-4. **Visual tone must match system phase.**  
-5. **Algorithmic decisions must be explainable, auditable, and reproducible.**  
-6. **Creative output must contain the signature of human instinct + machine clarity.**
+## Core Principles
 
-## Behavioral Constraints
-- No subsystem may override global coherence.  
-- No shortcuts that degrade structural clarity.  
-- No orphaned files, orphaned ideas, or untagged logic.  
-- Every change must strengthen the architecture, not fragment it.
+1. **Coherence First**  
+   Every component, document, or dataset must strengthen or clarify coherence.  
+   If it introduces noise without structure, it does not belong here.
 
-## Purpose
-These principles are the compass for every future document, dataset, system expansion, or research extension.  
-Break these, and the system collapses.  
-Follow them, and the architecture becomes self-reinforcing.
+2. **Cross-Layer Accountability**  
+   No layer is isolated. Changes in one layer must be traceable to impacts in the others.
+
+3. **Explicit Over Implicit**  
+   Heuristics are allowed, hidden assumptions are not.  
+   Any “gut feeling” rule must be written, versioned, and located.
+
+4. **Reversibility**  
+   Any architectural decision must be reversible with a clear rollback path.
+
+5. **Instrumentation by Default**  
+   If it cannot be observed, it cannot be trusted.  
+   Flows, states, and transitions must be measurable in principle.
+
+6. **Aligned Complexity**  
+   Complexity is acceptable only when it increases explanatory power or control.  
+   Decorative complexity is treated as technical debt.
+
+## Cross-Layer Anchor
+
+These principles bind:
+
+- `framework/` (structural lattice)  
+- `algorithmic/` (decision logic)  
+- `data/` and `diagrams/` (evidence and maps)  
+- `architecture/` (system design)  
+- `visual/` and `creative/` (surface expression)  
+- `phase/` (temporal state machine)  
+- `src/` (actual implementations)
+

@@ -1,30 +1,43 @@
-# Root Invariants
+# System Invariants
 
-These invariants form the unchanging backbone of the IMAGHOSTNOW architecture.  
-They are immune to versioning, style shifts, or downstream rewrites.
+Invariants are conditions that must remain true for the IMAGHOSTNOW architecture to be considered valid.  
+Breaking an invariant means the model and reality have diverged.
 
-## System Identity Invariants
-- The system operates across **multiple modes**: algorithmic, creative, visual, sonic, and phase-based.  
-- Coherence across modes is the primary objective.  
-- Each mode must resolve into a unified structural rhythm.
+## Global Invariants
 
-## Structural Invariants
-- All layers reference the **root** for definitions of coherence.  
-- Derived layers cannot override or contradict root meaning.  
-- Internal relationships are evaluated through alignment, resonance, and constraint satisfaction.
+1. **Single Source of Truth for Structure**  
+   The combination of `root/` + `framework/` defines the official structure.  
+   No other file is allowed to redefine the global topology.
 
-## Behavioral Invariants
-- The system must maintain stable behavior even as components evolve.  
-- Transitions must follow declared coherence pathways.  
-- No layer may introduce “drift” without explicit reconciliation.
+2. **Layer Boundaries Are Explicit**  
+   Every file belongs to exactly one primary layer, even if it references others.
 
-## Communication Invariants
-- Interfaces between layers must follow published contracts.  
-- Data and meaning can move across layers only through approved pathways.  
-- No implicit coupling.
+3. **Versioned Change**  
+   Any modification to root principles, structure, or flows must be:
+   - recorded in `notes/changelog.md`, and  
+   - justified with a brief rationale.
 
-## Notes
-Violating a root invariant does not break a file—it breaks the architecture.  
-All future expansions must pass through these gates.
+4. **Observable Behavior**  
+   Every algorithmic or architectural change must have:
+   - an expected effect on flows or states, and  
+   - a way to verify that effect with data or diagrams.
+
+5. **Cross-Layer Consistency**  
+   If two layers describe the same concept (e.g., “phase-2 fingerprint”),  
+   their definitions must be reconciled and referenced, not duplicated independently.
+
+6. **Reconstructability**  
+   A competent reader, starting from `root/` and `framework/`,  
+   must be able to reconstruct the intention behind any component in `src/`.
+
+## Invariant Scope
+
+Each invariant is assumed to apply to:
+
+- current documents and code, and  
+- future additions, unless explicitly exempted with justification.
+
+Exemptions must be rare, documented, and temporary.
+
 
 
