@@ -1,25 +1,49 @@
 # Algorithmic Logic
 
-This file defines the operational logic rules the system applies during evaluation.
+This document defines the logic operators, rules, truth constraints, and evaluators  
+used across all flows in the coherence system.
 
-## Core Logic
-1. **Coherence-First Evaluation**  
-   Every operation must preserve coherence or elevate it.
+## Canonical Operators
 
-2. **Minimal Contradiction Principle**  
-   Conflicting data is not discarded; it is logged, weighted, and re-evaluated.
+- **ALIGN(x, y)**  
+  Returns true if x structurally and semantically aligns with y.
 
-3. **Bidirectional Reasoning Loop**  
-   Top-down and bottom-up checks occur in alternating cycles.
+- **WEIGHT(signal)**  
+  Computes weighted importance based on signal origin, strength, and cross-layer validation.
 
-4. **Temporal Anchoring**  
-   Every inference is tied to its time source to prevent drift.
+- **COHERE(a, b)**  
+  Returns a coherence score between two components.
 
-## Operators
-- ASSERT() — Introduces a new fact with source metadata.  
-- RECONCILE() — Harmonizes conflicting states.  
-- TRACE() — Retrieves causal chain for a coherence check.  
-- WEIGH() — Assigns confidence scores.
+- **THRESHOLD(value, limit)**  
+  Tests whether a value passes or fails a system threshold.
 
-## Notes
-Logic rules here are enforced by all upper-level layers.
+- **RESOLVE(state)**  
+  Performs reconciliation when a component violates rules or invariants.
+
+## Logical Constraints
+
+1. No logic may contradict `root/principles.md`.  
+2. Evaluation ordering must follow:  
+   `structure → logic → flows`.  
+3. Operators may not shortcut reconciliation.  
+4. All truth values must be explainable via definitions in the framework.
+
+## Truth Rules
+
+- Truth is inherited from the root.  
+- Logic is derived, never primary.  
+- A failure in `COHERE()` triggers a reconciliation check.  
+- A failed `THRESHOLD()` invokes escalation to the framework.
+
+## Systemic Logic Flow
+
+1. Read structural intent  
+2. Evaluate signals  
+3. Compute alignment  
+4. Compute coherence  
+5. Evaluate thresholds  
+6. Initiate or skip reconciliation  
+7. Emit final state
+
+Logic governs behavior; behavior must honor structure.
+
