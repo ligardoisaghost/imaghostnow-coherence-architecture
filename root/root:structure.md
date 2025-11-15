@@ -1,30 +1,44 @@
-# Root Structure
+# Root Structure Map
 
-This document defines the architectural skeleton of the IMAGHOSTNOW Coherence Architecture.  
-Everything above, below, or beside this layer inherits from these specifications.
+The structure file defines how the entire architecture fits together.  
+It establishes the lattice, the graph, the hierarchy, and the permitted pathways.
 
-## Global Architecture Model
-The system is organized into layered domains:
+## System Lattice (High-Level)
+- **Root**  
+  Identity, invariants, coherence law  
+- **Framework**  
+  Structure, layers, and organizing principles  
+- **Algorithmic**  
+  Logic, flows, constraints  
+- **Creative**  
+  Narrative, motifs, semantic voice  
+- **Visual**  
+  Palette, metaphors, spatial coherence  
+- **Phase**  
+  Temporal states, cycles, transitions  
+- **Data**  
+  Schemas, pipelines, system observations  
+- **Diagrams**  
+  Maps of relationships and flows  
+- **Docs**  
+  Specifications and reference material  
+- **Src**  
+  Implementation, core builders  
+- **Notes**  
+  Working files, tasks, revisions  
 
-1. **root/** — foundational rules, principles, invariants  
-2. **framework/** — the generalized pattern model  
-3. **phase/** — temporal and developmental sequencing  
-4. **visual/** — imagery, archetypes, cinematic logic  
-5. **algorithmic/** — machine behavior, pattern recognition, computational logic  
-6. **creative/** — writing, film, sound, artistic output  
-7. **papers/** — research outputs, academic writing  
-8. **data/** — ingestion, logs, analytics, metrics  
-9. **src/** — scripts, builders, tools
+## Relationship Graph
+The system follows a **root-outward** coherence model:  
+`Root → Framework → (Algorithmic / Creative / Visual / Phase) → Data / Diagrams → Docs → Src`
 
-## Invariants
-These cannot be violated:
+Each arrow is a permitted dependency.  
+Reverse or diagonal dependencies must be justified.
 
-- No subsystem may contradict root principles.  
-- Each subsystem must map cleanly to the framework layer.  
-- Phase rules define when a subsystem is active or dormant.  
-- Visual, algorithmic, and creative branches must maintain coherence across tone, style, motion, and narrative.  
-- Data and src layers must remain audit-friendly and reproducible.
+## Pathways
+- **Vertical pathways** ensure each layer inherits coherence from the one above.  
+- **Horizontal pathways** allow communication between peer modes (e.g., creative ↔ visual) but only through defined interfaces.  
+- **Temporal pathways** allow phase logic to influence or reconfigure lower-level behavior.
 
-## Structural Notes
-The root structure is minimal but sovereign.  
-Every major evolution of the architecture must begin here.
+## Notes
+The structure file acts as the architectural compass.  
+Every new component must map cleanly into this lattice.
