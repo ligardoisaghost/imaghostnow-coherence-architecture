@@ -1,12 +1,23 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2867
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 HelveticaNeue-Bold;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-\deftab560
-\pard\pardeftab560\slleading20\pardirnatural\partightenfactor0
+# Documentation Layer Overview
 
-\f0\b\fs26 \cf0 # docs/overview.md\
-\
-This overview explains the documentation hierarchy and why it is structured in layers. It identifies the intended audience: researchers, implementers, theorists. It establishes the rules for documentation style and precision. The file defines how updates propagate across related documents. It anchors the docs to system truth, not narrative convenience.\
-}
+The documentation layer provides the stable reference for the entire
+IMAGHOSTNOW Coherence Architecture.  
+It ensures that every layer is interpretable, reproducible, and interoperable.
+
+## Purpose
+
+- Define the system at a formal reference level  
+- Clarify interfaces between layers  
+- Provide language, terminology, and style consistency  
+- Act as the canonical source for external contributors  
+
+## Structure
+
+- `overview.md` — high-level purpose and documentation map  
+- `specification.md` — formal definitions, grammar, and rules  
+- `appendix.md` — diagrams, tables, enumerations, extended references  
+
+## Notes
+
+Documentation is *not* creative or exploratory; it is structured, stable, and exact.  
+All language here should avoid metaphor unless explicitly defined.

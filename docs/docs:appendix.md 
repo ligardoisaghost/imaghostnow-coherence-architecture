@@ -1,3 +1,45 @@
-# docs/appendix.md 
+# Appendix
 
-The appendix captures secondary or supporting material. It includes definitions, clarifications, out-of-band notes, and auxiliary tables. This file prevents clutter in the main documents. It cannot introduce new rules, only explain existing ones. Its role is to illuminate without expanding scope.
+Supplementary tables, enumerations, references, and definitions supporting
+the IMAGHOSTNOW Coherence Architecture.
+
+---
+
+## A. Layer Index
+
+| Layer        | Purpose                                 |
+|--------------|-------------------------------------------|
+| root         | Identity, boundaries, invariants          |
+| framework    | Structural laws and invariants            |
+| algorithmic  | Logic, flows, behavior                    |
+| architecture | Components, interfaces, channels          |
+| data         | Representations, schemas, mappings        |
+| diagrams     | Visual system structures                  |
+| visual       | Palette, motifs, symbolic coherence       |
+| creative     | Voice, style, expressive motifs           |
+| phase        | States, cycles, temporal logic            |
+| papers       | Long-form theory                          |
+| notes        | Operational memory                        |
+
+---
+
+## B. File Conventions
+
+- Markdown only  
+- UTF-8 encoding  
+- No trailing whitespace  
+- No speculative content  
+- All definitions must be cross-referenced  
+
+---
+
+## C. Structural Constants
+
+- Coherence must be preserved across:  
+  - logical structure  
+  - temporal cycles  
+  - symbolic motifs  
+
+---
+
+Future appendix entries may include formulas, flow tables, extended diagrams, or bibliographic references.
