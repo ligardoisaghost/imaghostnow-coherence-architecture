@@ -1,3 +1,8 @@
+## System Index
+
+For the unified HMR + Phase-2 coherence overview, see:
+
+▶️ docs/INDEX_HMR_SYSTEM.md
 # IMAGHOSTNOW – Coherence Architecture
 
 A multi-layer structural blueprint for coherence across diagrams, systems, flows, states, and narrative design.
